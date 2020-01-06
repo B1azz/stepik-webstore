@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 
 
-def test_spanish_localization(browser):
+def test_add_to_cart_button(browser):
     browser.get(link)
     time.sleep(30)
     button = WebDriverWait(browser, 5)\
